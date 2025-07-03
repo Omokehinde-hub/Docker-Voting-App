@@ -11,7 +11,6 @@ This project transforms the original [Docker Voting App](https://github.com/dock
 **Original Setup:**
 - Simple Docker Compose application
 - Basic GitHub Actions CI/CD
-- Single pipeline for all services
 
 **My Implementation:**
 - **3 separate Azure DevOps pipelines** for each microservice
@@ -59,9 +58,6 @@ Each of the 3 pipelines follows the same pattern:
 | Feature | Original | My Version |
 |---------|----------|------------|
 | CI/CD | GitHub Actions | Azure DevOps |
-| Triggers | Branch-based | Path-based |
-| Pipelines | Single pipeline | 3 separate pipelines |
-| Deployment | Manual | GitOps with ArgoCD |
 | Registry | Docker Hub | Azure Container Registry |
 | Build Agent | GitHub-hosted | Self-hosted Azure VM |
 
@@ -73,18 +69,3 @@ Each of the 3 pipelines follows the same pattern:
 - **Reliability**: GitOps ensures consistent deployments
 - **Enterprise-Ready**: Follows industry best practices
 
-## 🚀 Getting Started
-
-1. Clone this repository
-2. Set up Azure Container Registry
-3. Create Azure VM for self-hosted runner
-4. Import the 3 pipeline files to Azure DevOps
-5. Configure ArgoCD for GitOps deployment
-
-## 🤝 Contributing
-
-Feel free to fork this project and submit pull requests for improvements!
-
----
-
-**⭐ Star this repo if you found it useful!**
