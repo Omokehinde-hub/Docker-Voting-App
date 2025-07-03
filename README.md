@@ -69,3 +69,7 @@ Each of the 3 pipelines follows the same pattern:
 - **Reliability**: GitOps ensures consistent deployments
 - **Enterprise-Ready**: Follows industry best practices
 
+![Image](https://github.com/user-attachments/assets/c295fa70-55a3-4eaa-a01d-6719d5a608a8)
+![Image](https://github.com/user-attachments/assets/b0f3b797-c8eb-45ee-941d-fd3e51d9e379)
+![Image](https://github.com/user-attachments/assets/a8a77c2f-6566-4aae-a53d-5554ff938633)
+
